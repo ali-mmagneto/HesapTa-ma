@@ -3,7 +3,7 @@ Bu Userbot hesabını başka bir hesaba taşımak isteyen Telegram kullanıcıla
 Botun yaptığı;
 Özelden botu kurduğunuz hesaba mesaj atan herkese sizin belirlediğiniz bir mesajı atar.. 
 
-Telegram Demo: https://t.me/mmagneto
+Telegram Demo: https://t.me/
 
 Değişkenler:
 
