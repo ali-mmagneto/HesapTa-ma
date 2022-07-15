@@ -2,7 +2,6 @@
 
 import pyrogram
 from pyrogram import Client
-from pyrogram.enums
 from config import APP_ID, API_HASH, STRING_SESSION, MESAJ
 
 
