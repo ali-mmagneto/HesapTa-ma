@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from config import APP_ID, API_HASH, STRING_SESSION, MESAJ
 
 
-userbot = Client(session_name=STRING_SESSION, api_id=APP_ID, api_hash=API_HASH, parse_mode='html')
+userbot = Client(session_name=STRING_SESSION, api_id=APP_ID, api_hash=API_HASH)
 userbot.start()
 
 @Client.on_message(filters.text & filters.private)
