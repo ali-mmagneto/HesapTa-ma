@@ -7,7 +7,7 @@ Telegram Demo: https://t.me/
 
 Değişkenler:
 
-STRING_SESSION 
+STRING_SESSION \n
 APP_ID my.telegram.org'dan bir uygulama oluşturup alın.. 
 API_HASH my.telegram.org'dan bir uygulama oluşturup alın.. 
 MESAJ kafana göre takıl
