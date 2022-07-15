@@ -14,5 +14,5 @@ async def tsm(c: Client, m: "types.Message"):
         text=MESAJ,
         chat_id=chat_id)
 
-ubot.run()
+ubot.start()
        
