@@ -6,7 +6,7 @@ from config import APP_ID, API_HASH, STRING_SESSION, MESAJ
 
 
 userbot = Client(
-        session_name=STRING_SESSION, 
+        session_string=STRING_SESSION, 
         api_id=APP_ID,
         api_hash=API_HASH
         )
