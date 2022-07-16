@@ -18,4 +18,4 @@ async def tsm(c: Client, m: "types.Message"):
         text=MESAJ,
         chat_id=chat_id)
        
-userbot.start()
+userbot.run()
