@@ -16,7 +16,7 @@ UserBot = Client(
 @UserBot.on_message(filters.text & filters.private)
 async def ubot(c: Client, m: "types.Message"):
     await m.reply_text(
-        text=MESAJ,
+        text=MESAJ.format(update.from_user.mention),
         parse_mode=ParseMode.HTML
         )
        
