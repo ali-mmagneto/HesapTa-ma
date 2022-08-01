@@ -3,6 +3,8 @@
 import re
 import os
 from os import environ
+from pyrogram import Client
+import tgcrypto
 
 
 APP_ID = int(environ.get("APP_ID")) 
