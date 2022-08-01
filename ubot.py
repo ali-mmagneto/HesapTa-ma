@@ -6,6 +6,11 @@ from pyrogram import Client, filters, __version__
 from config import APP_ID, API_HASH, STRING_SESSION, MESAJ
 
 
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[logging.FileHandler('log.txt'), logging.StreamHandler()],
+    level=logging.INFO)
+LOGGER = logging.getLogger(__name__)
+
 UserBot = Client(
         name='userbot',
         session_string=STRING_SESSION, 
