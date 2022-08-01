@@ -13,9 +13,11 @@ UserBot = Client(
         )
 
 @UserBot.on_message(filters.text & filters.private)
-async def tsm(c: Client, m: "types.Message"):
+async def ubot(c: Client, m: "types.Message"):
     await m.reply_text(
         text=MESAJ,
-        chat_id=chat_id)
+        chat_id=chat_id,
+        parse_mode=ParseMode.HTML
+        )
        
 UserBot.run()
