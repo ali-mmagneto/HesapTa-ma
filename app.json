@@ -1,0 +1,26 @@
+{
+  "name": "Zombay-Dizisi",
+  "logo":"https://telegra.ph/file/ff56e221b0a50dc90926a.jpg",
+  "description": "Zombi Dizisi Getirir.",
+  "env": {
+    "STRING_SESSION": {
+      "description": "@botfather ile Alabilirsin.",
+      "value": ""
+    }, 
+    "API_HASH": {
+      "description": "my.telegram.org'dan al",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "my.telegram.org'dan al",
+      "value": ""
+    },
+    "MESAJ": {
+      "description": "Atıkacak Mesaj",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+} 
