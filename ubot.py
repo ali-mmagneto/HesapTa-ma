@@ -20,7 +20,7 @@ UserBot = Client(
         api_hash=API_HASH
         )
 
-@UserBot.on_message(filters.text & filters.private & filters.incoming)
+@UserBot.on_message(filters.text & filters.private & filters.incoming & filters.user)
 async def ubot(c: Client, m: "types.Message"):
     await m.reply_text(
         text=MESAJ.format(m.from_user.mention),
