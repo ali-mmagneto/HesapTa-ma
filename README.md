@@ -3,6 +3,10 @@ Bu Userbot hesabını başka bir hesaba taşımak isteyen Telegram kullanıcıla
 Botun yaptığı;
 Özelden botu kurduğunuz hesaba mesaj atan herkese sizin belirlediğiniz bir mesajı atar.. 
 
+
+[![deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ali-mmagneto/HesapTasima)
+
+
 Telegram Demo: https://t.me/
 
 Değişkenler:
