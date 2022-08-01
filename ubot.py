@@ -1,6 +1,7 @@
 # created by :d
 
 import pyrogram
+from pyrogram.enums import ParseMode
 from pyrogram import Client, filters, __version__
 from config import APP_ID, API_HASH, STRING_SESSION, MESAJ
 
