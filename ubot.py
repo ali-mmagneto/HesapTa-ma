@@ -22,11 +22,14 @@ UserBot = Client(
 
 @UserBot.on_message(filters.private & filters.incoming & filters.user)
 async def ubot(c: Client, m: "types.Message"):
-    await m.reply_text(
-        text=MESAJ.format(m.from_user.mention),
-        parse_mode=ParseMode.HTML
-        )
-    print("{message.from.chat_id} is kiss you") 
+    if m.from_user.is_bot:
+        print("bot sana yazdı hadi yine iyisin") 
+    else:
+        await m.reply_text(
+            text=MESAJ.format(m.from_user.mention),
+            parse_mode=ParseMode.HTML
+            )
+        print("{m.from.chat_id} is kiss you") 
 
 LOGGER.info(msg="UserBot is running #created by :d")        
 UserBot.run()
