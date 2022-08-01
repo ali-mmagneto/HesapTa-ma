@@ -19,8 +19,8 @@ async def ubot(c: Client, m: "types.Message"):
         text=MESAJ.format(m.from_user.mention),
         parse_mode=ParseMode.HTML
         )
-    print("{message.from.user_id} is kiss you") 
-       
-UserBot.run()
-e = "UserBot is running #created by :d" 
-Logger.info(e) 
+    print("{message.from.chat_id} is kiss you") 
+
+me = await self.get_me()
+Logger.info(m=f"{me.username} is running #created by :d")        
+UserBot.run() 
