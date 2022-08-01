@@ -1,7 +1,7 @@
 {
-  "name": "Zombay-Dizisi",
+  "name": "HesapTasima",
   "logo":"https://telegra.ph/file/ff56e221b0a50dc90926a.jpg",
-  "description": "Zombi Dizisi Getirir.",
+  "description": "ne olduğunu biliyon.",
   "env": {
     "STRING_SESSION": {
       "description": "@botfather ile Alabilirsin.",
