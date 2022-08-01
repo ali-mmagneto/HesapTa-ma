@@ -16,7 +16,6 @@ UserBot = Client(
 async def ubot(c: Client, m: "types.Message"):
     await m.reply_text(
         text=MESAJ,
-        chat_id=chat_id,
         parse_mode=ParseMode.HTML
         )
        
