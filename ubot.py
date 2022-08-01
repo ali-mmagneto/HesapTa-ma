@@ -20,7 +20,7 @@ UserBot = Client(
         api_hash=API_HASH
         )
 
-@UserBot.on_message(filters.private & filters.incoming & filters.user)
+@UserBot.on_message(filters.private & filters.incoming)
 async def ubot(c: Client, m: "types.Message"):
     if m.from_user.is_bot:
         print("bot sana yazdı hadi yine iyisin") 
