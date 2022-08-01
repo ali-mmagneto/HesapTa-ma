@@ -28,5 +28,5 @@ async def ubot(c: Client, m: "types.Message"):
         )
     print("{message.from.chat_id} is kiss you") 
 
-Logger.info(m="UserBot is running #created by :d")        
+LOGGER.info(m="UserBot is running #created by :d")        
 UserBot.run() 
